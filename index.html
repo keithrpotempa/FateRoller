@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Fate Dice Roller</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1>Fate Dice Roller</h1>
+    <div> 
+        <p class="result"></p>
+        <form>
+          Modifier: <br>
+          <input type="number" id="modifier" min="-6" max="6" value="0">
+          <button type="button" class="roll" name="roll" value="submit">Roll</button>
+        </form>
+    </div> 
+    <table style="width:10%" id="ladder">
+      <tr>
+        <th>The Ladder</th>
+      </tr>
+      <tr>
+        <td id="ladder8">+8 Legendary</td>
+      </tr>
+      <tr>
+        <td id="ladder7">+7 Epic</td>
+      </tr>
+      <tr>
+        <td id="ladder6">+6 Fantastic</td>
+      </tr>
+      <tr>
+        <td id="ladder5">+5 Superb</td>
+      </tr>
+      <tr>
+        <td id="ladder4">+4 Great</td>
+      </tr>
+      <tr>
+        <td id="ladder3">+3 Good</td>
+      </tr>
+      <tr>
+        <td id="ladder2">+2 Fair</td>
+      </tr>
+      <tr>
+        <td id="ladder1">+1 Average</td>
+      </tr>
+      <tr>
+        <td id="ladder0">+0 Mediocre</td>
+      </tr>
+      <tr>
+        <td id="ladder-1">–1 Poor</td>
+      </tr>
+      <tr>
+        <td id="ladder-2">–2 Terrible</td>
+      </tr>
+    <script src="app.js"></script>
+  </body>
+</html>
